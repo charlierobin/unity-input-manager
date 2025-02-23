@@ -7,7 +7,9 @@ So over the years I’ve slowly put together an editing app of my own. It starte
 
 I know that these days we’re supposed to use the new Unity input system, but, good though it is, a lot of the time it’s just too involved for the kind of games I tend to produce. So although by now I always thought that I would have ditched the old input system for the new one, it just hasn’t happened that way: I keep coming back to the old ways.
 
+There are still things here and there that I always wanted to add but never got around to: a window displaying the “history” of deleted axes, a folder in `Documents` in which any Asset documents are automatically opened on launch, drag and drop between different settings files (at the moment it’s copy and paste only).
 
+But even as it is, I still find it to be a very useful app, so perhaps others will feel the same way.
 
 
  
