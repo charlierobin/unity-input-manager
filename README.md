@@ -33,7 +33,7 @@ There’s a simple floating editing window:
 
 There’s a popup of common key names/joystick axes/controller buttons etc for help when editing:
 
-![templates-popup](https://github.com/user-attachments/assets/812caa05-511d-4b55-bcff-4bfa130e6c2e)
+![axes-popup-menu](https://github.com/user-attachments/assets/a0dd9b18-47fa-4fd5-8eb6-1b45eda01303)
 
 (These popups were never finished, so I think there are a few keys/buttons/axes missing, but I’ve never got around to cross-referencing with the official Unity documentation and building a comprehensive list.)
 
