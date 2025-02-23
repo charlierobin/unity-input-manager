@@ -13,27 +13,27 @@ But even as it is, I still find it to be a very useful app, so perhaps others wi
 
 You can have as many input manager asset files open as you like, and copy/paste axes between them:
 
-<img width="1000" alt="three-windows-and-templates-window" src="https://github.com/user-attachments/assets/606eab58-e9a8-4161-a895-f639177d6421" />
+![three-windows-and-templates-window](https://github.com/user-attachments/assets/66b0041c-eac6-47b2-9f98-518fa1b29ff4)
 
 I went through a lot of the Unity template projects and collected all their default input manager files, making them available for browsing:
 
-<img width="897" alt="templates-popup" src="https://github.com/user-attachments/assets/ee0eca0d-b85a-4d42-972b-67b25f5f9a57" />
+![templates-popup](https://github.com/user-attachments/assets/37253609-554f-40fb-ba88-258e6cbc6439)
 
 ... and making it easy to select the required settings in them and quickly create a new input manager asset from them:
 
- <img width="889" alt="creating-new-asset-using-some-axes-from-template" src="https://github.com/user-attachments/assets/41f2ea26-3e97-4ce0-a5c6-8688312aee19" />
+![creating-new-asset-using-some-axes-from-template](https://github.com/user-attachments/assets/ec706159-6584-444f-ae76-a4f74d3b7e3b)
 
 In the narrower windows you get a summary view of an axis’ settings, with a wider window you get a more detailed breakdown of every setting (similar to the actual view in Unity itself):
 
-<img width="1000" alt="detailed-view-wide" src="https://github.com/user-attachments/assets/53abd696-6077-4c42-9a0e-8b8003c0cffa" />
+![detailed-view-wide](https://github.com/user-attachments/assets/3aecc26e-48f7-43b9-9a4c-bde0de5d3af2)
 
 There’s a simple floating editing window:
 
-<img width="1000" alt="edit-window" src="https://github.com/user-attachments/assets/c8a2e021-fe55-46fb-a128-fbc8e306f475" />
+![edit-window](https://github.com/user-attachments/assets/7263e34d-284b-44ad-90ae-188bb7d08be6)
 
 There’s a popup of common key names/joystick axes/controller buttons etc for help when editing:
 
-<img width="374" alt="axes-popup-menu" src="https://github.com/user-attachments/assets/953ce682-154e-4e25-9755-0321f87edf65" />
+![templates-popup](https://github.com/user-attachments/assets/812caa05-511d-4b55-bcff-4bfa130e6c2e)
 
 (These popups were never finished, so I think there are a few keys/buttons/axes missing, but I’ve never got around to cross-referencing with the official Unity documentation and building a comprehensive list.)
 
