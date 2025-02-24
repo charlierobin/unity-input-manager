@@ -7,7 +7,7 @@ So over the years I’ve slowly put together an editing app of my own. It starte
 
 I know that these days we’re supposed to use the new Unity input system, but, good though it is, a lot of the time it’s just too involved for the kind of games I tend to produce. So although by now I always thought that I would have ditched the old input system for the new one, it just hasn’t happened that way: I keep coming back to the old ways.
 
-There are still things here and there that I always wanted to add but never got around to: a window displaying the “history” of deleted axes, a folder in `Documents` in which any Asset documents are automatically opened on launch, drag and drop between different settings files (at the moment it’s copy and paste only).
+There are still things here and there that I always wanted to add but never got around to: a window displaying the “history” of deleted axes, a folder in `Documents` in which any Asset documents are automatically opened on launch, drag and drop between different settings files (at the moment it’s copy and paste only). Also generalising the reading and writing of YAML files, rather than the bodge it is at the moment. (Although given the format and layout of the input manager assets hasn’t changed since whenever, it’s a bodge that has stood the test of time.) And a window menu was always on the list of “things to do”. Along with undoing changes to a setting.
 
 But even as it is, I still find it to be a very useful app, so perhaps others will feel the same way.
 
@@ -39,7 +39,7 @@ There’s a popup of common key names/joystick axes/controller buttons etc for h
 
 So, in conclusion, perhaps others will find this app as useful as I’ve found it over the years.
 
-Source code is in `xojo-project-files`, for those happy to take the risk downloading pre-built binaries, here they are:
+Source code is in [xojo-project-files](/xojo-project-files), for those happy to take the risk downloading pre-built binaries, here they are:
 
 Download links below for a zip of Intel, ARM and universal versions, and a zip of a disk image of Intel, ARM and universal versions. (All macOS, as already mentioned somewhere above, I think.)
 
