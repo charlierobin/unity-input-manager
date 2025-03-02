@@ -24,11 +24,11 @@ Begin DesktopWindow WindowEdit
    Type            =   3
    Visible         =   True
    Width           =   1394
-   Begin DesktopButton ButtonClose
+   Begin DesktopButton ButtonSave
       AllowAutoDeactivate=   True
       Bold            =   False
       Cancel          =   False
-      Caption         =   "Close"
+      Caption         =   "Save"
       Default         =   False
       Enabled         =   True
       FontName        =   "System"
@@ -618,7 +618,7 @@ End
 #tag WindowCode
 	#tag Event
 		Function CancelClosing(appQuitting As Boolean) As Boolean
-		  if not appQuitting then
+		  if ( not appQuitting ) and self.editConfirmed then
 		    
 		    self.data.m_Name = self.TextField_m_Name.Text
 		    
@@ -716,6 +716,16 @@ End
 		Function handleKey(key as String) As Boolean
 		  if key = chr( 13 ) then
 		    
+		    self.editConfirmed = true
+		    
+		    self.Close()
+		    
+		    return true
+		    
+		  elseif key = chr( 27 ) then
+		    
+		    self.editConfirmed = false
+		    
 		    self.Close()
 		    
 		    return true
@@ -733,6 +743,10 @@ End
 	#tag EndProperty
 
 	#tag Property, Flags = &h21
+		Private editConfirmed As Boolean
+	#tag EndProperty
+
+	#tag Property, Flags = &h21
 		Private opening As Boolean
 	#tag EndProperty
 
@@ -743,9 +757,11 @@ End
 
 #tag EndWindowCode
 
-#tag Events ButtonClose
+#tag Events ButtonSave
 	#tag Event
 		Sub Pressed()
+		  self.editConfirmed = true
+		  
 		  self.Close()
 		  
 		  

@@ -681,12 +681,18 @@ End
 	#tag EndEvent
 	#tag Event
 		Function DragReorderRows(newPosition as Integer, parentRow as Integer) As Boolean
+		  #pragma unused newPosition
+		  
+		  #pragma unused parentRow
+		  
 		  self.Changed = true
 		  
 		End Function
 	#tag EndEvent
 	#tag Event
 		Function HeaderPressed(column as Integer) As Boolean
+		  #pragma unused column
+		  
 		  self.Changed = true
 		  
 		  
