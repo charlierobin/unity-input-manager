@@ -41,7 +41,7 @@ So, in conclusion, perhaps others will find this app as useful as I’ve found i
 
 Source code is in [xojo-project-files](/xojo-project-files), for those happy to take the risk downloading pre-built binaries, here they are:
 
-Download links below for a zip of Intel, ARM and universal versions, and a zip of a disk image of Intel, ARM and universal versions. (All macOS, as already mentioned somewhere above, I think. But the last time I quickly went through the codebase I couldn’t see anything obvious that would stop it from being pretty quickly setup to run on Windows or Linux. But I’m a Mac user, so that’s where my prioritiesd tend to congregate.)
+Download links below for a zip of Intel, ARM and universal versions, and a zip of a disk image of Intel, ARM and universal versions. (All macOS, as already mentioned somewhere above, I think. But the last time I quickly went through the codebase I couldn’t see anything obvious that would stop it from being pretty quickly setup to run on Windows or Linux. But I’m a Mac user, so that’s where my priorities tend to congregate.)
 
 [zip of Intel, ARM and universal versions](https://www.dropbox.com/scl/fi/anw470px54ocj6tu36b9l/UnityInputManagerHelper.zip?rlkey=v3glmsai513tst4cexcf6rd0j&st=59k7g92r&dl=1)
 
