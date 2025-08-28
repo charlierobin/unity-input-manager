@@ -43,6 +43,6 @@ Source code is in [xojo-project-files](/xojo-project-files), for those happy to 
 
 Download links below for a zip of Intel, ARM and universal versions, and a zip of a disk image of Intel, ARM and universal versions. (All macOS, as already mentioned somewhere above, I think. But the last time I quickly went through the codebase I couldn’t see anything obvious that would stop it from being pretty quickly setup to run on Windows or Linux. But I’m a Mac user, so that’s where my priorities tend to congregate.)
 
-[zip of Intel, ARM and universal versions](https://www.dropbox.com/scl/fi/anw470px54ocj6tu36b9l/UnityInputManagerHelper.zip?rlkey=v3glmsai513tst4cexcf6rd0j&st=59k7g92r&dl=1)
+[Separate zips of Intel, ARM and universal versions](https://github.com/charlierobin/unity-input-manager/releases)
 
-[zip of a disk image of Intel, ARM and universal versions](https://www.dropbox.com/scl/fi/s33f4w8l7zgsa8h9ombn2/UnityInputManagerHelper.dmg.zip?rlkey=dtf27q0enuamswxuxdaaour03&st=b10jxqxk&dl=1)
+[Disk image of Intel, ARM and universal versions](https://github.com/charlierobin/unity-input-manager/releases)
